@@ -1,1 +1,1 @@
-start http://localhost:2222/
+start http://localhost:2222/  && npm start 

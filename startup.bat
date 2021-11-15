@@ -1,1 +1,2 @@
-start http://localhost:2222/  && npm start 
+@ECHO OFF
+FOR /f "tokens=*" %%i IN ('docker ps -q') DO docker stop %%i 

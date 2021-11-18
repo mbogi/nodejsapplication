@@ -37,7 +37,7 @@ pipeline {
     }
     stage('remove existing image ') {
       steps {
-        bat ' docker image prune --force '
+        bat ' docker image prune --force'
       }
     }
 	
@@ -59,3 +59,4 @@ pipeline {
     }
   }
 }
+

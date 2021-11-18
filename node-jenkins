@@ -7,7 +7,7 @@ pipeline {
         
     stage('Git') {
       steps {
-        git ''
+        git 'https://github.com/mbogi/nodejsapplication.git'
       }
     }
      
